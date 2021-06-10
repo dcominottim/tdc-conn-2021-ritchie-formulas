@@ -1,0 +1,31 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-powershell-builder",
+  "inputs": [
+    {
+      "default": "test-topic",
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Type the name of the topic to which you want to subscribe: ",
+      "name": "rit_topic_name_text",
+      "required": true,
+      "tutorial": "The name of the topic to which you want to subscribe",
+      "type": "text"
+    },
+    {
+      "default": "test-queue-sns",
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Type the name of the queue to be subscribed: ",
+      "name": "rit_queue_name_text",
+      "required": true,
+      "tutorial": "The name of the queue to be subscribed",
+      "type": "text"
+    }
+  ]
+}

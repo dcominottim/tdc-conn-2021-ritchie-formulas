@@ -1,0 +1,18 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-powershell-builder",
+  "inputs": [
+    {
+      "default": "test-topic",
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Type the name of the topic you want to create: ",
+      "name": "rit_topic_name_text",
+      "required": true,
+      "tutorial": "The name of the topic you want to create",
+      "type": "text"
+    }
+  ]
+}

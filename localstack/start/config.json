@@ -1,0 +1,6 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-powershell-builder",
+  "inputs": [
+  
+  ]
+}

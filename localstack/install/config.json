@@ -1,0 +1,30 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-powershell-builder",
+  "inputs": [
+    {
+      "default": "latest",
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Type the version of LocalStack that you want to install: ",
+      "name": "rit_version_text",
+      "required": true,
+      "tutorial": "The LocalStack version to be installed",
+      "type": "text"
+    },
+    {
+      "default": "Docker",
+      "items": [
+        "pip",
+        "Docker"
+      ],
+      "label": "Select the installation type that you want to use: ",
+      "name": "rit_install_type_list",
+      "required": true,
+      "tutorial": "The LocalStack installation type to be used",
+      "type": "text"
+    }
+  ]
+}

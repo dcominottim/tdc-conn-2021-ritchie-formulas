@@ -1,0 +1,18 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-kotlin-jdk11-builder",
+  "inputs": [
+    {
+      "default": "en-US",
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Type the locale to be used for data generation: ",
+      "name": "rit_locale_text",
+      "required": true,
+      "tutorial": "The locale to be used for data generation",
+      "type": "text"
+    }
+  ]
+}
